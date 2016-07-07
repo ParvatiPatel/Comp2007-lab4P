@@ -18,6 +18,7 @@ namespace Comp2007_summer_2016.Models
 
         [Required]
         [StringLength(50)]
+        [Display(Name = "Name")]
         public string Name { get; set; }
 
         public decimal Budget { get; set; }
